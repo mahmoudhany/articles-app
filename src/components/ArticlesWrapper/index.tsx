@@ -1,33 +1,39 @@
-import React, { useEffect } from "react"
-import styled from "styled-components"
+import React, { useEffect, useState } from "react"
 import { fetchArticles } from "../../utils"
 import ArticleCard from "../ArticleCard"
-
-// Define styled components outside of the ArticlesComponent
-const ArticlesContainer = styled.div`
-  padding: 20px;
-  background-color: #f5f5f5;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-`
+import { Article } from "./articleTypes"
+import { ArticlesContainer } from "./articleWrapper.style"
+import LoadingSpinner from "../LoadingSpinner"
 
 const ArticlesWrapper: React.FC = () => {
+  const [articles, setArticles] = useState<Article[]>([])
+
   useEffect(() => {
     const fetchData = async () => {
-      const articles = await fetchArticles(1, 10)
+      const articles: Article[] = await fetchArticles()
+      setArticles(articles)
     }
-
     fetchData()
   }, [])
 
   return (
     <ArticlesContainer id="articles-container">
-      <ArticleCard
-        title="test"
-        author="test"
-        content="test"
-        publishedDate="test"
-      />
+      {articles.length === 0 ? (
+        <>
+          <LoadingSpinner />
+        </>
+      ) : (
+        articles.map((article) => (
+          <ArticleCard
+            key={article.id}
+            image={article.media[0]?.["media-metadata"][2].url}
+            title={article.title}
+            abstract={article.abstract}
+            publishedDate={article.published_date}
+            url={article.url}
+          />
+        ))
+      )}
     </ArticlesContainer>
   )
 }

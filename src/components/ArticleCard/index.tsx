@@ -1,25 +1,27 @@
 import React from "react"
-import { Card, Content, Footer, Title } from "./articleCard.style"
+import { Abstract, Card, CardImage, Footer, Title } from "./articleCard.style"
 
-interface ArticleCardProps {
+export interface ArticleCardProps {
   title: string
-  content: string
-  author: string
+  image: string
+  abstract: string
   publishedDate: string
+  url: string
 }
 
 const ArticleCard: React.FC<ArticleCardProps> = ({
   title,
-  content,
-  author,
+  abstract,
   publishedDate,
+  image,
+  url,
 }) => {
   return (
-    <Card>
+    <Card to={url} target="_blank">
+      <CardImage src={image} alt={title} />
       <Title>{title}</Title>
-      <Content>{content}</Content>
+      <Abstract>{abstract}</Abstract>
       <Footer>
-        <span>By {author}</span> |{" "}
         <time dateTime={publishedDate}>{publishedDate}</time>
       </Footer>
     </Card>

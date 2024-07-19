@@ -1,24 +1,7 @@
-import React, { useEffect } from "react"
-
 const URL = `https://api.nytimes.com/svc/mostpopular/v2/viewed/1.json?api-key=${process.env.REACT_APP_API_KEY}`
 
-// export const fetchArticles = async () => {
-//   const response = await fetch(URL)
-//   const data = await response.json()
-//   return data.results
-// }
-
-export const getArticle = async (id: number) => {
-  const response = await fetch(`${URL}/${id}.json`)
-  const data = await response.json()
-  return data
-}
-
-export const fetchArticles = async (page: number, pageSize: number) => {
-  const offset = (page - 1) * pageSize
-  const url = `${URL}&offset=${offset}&limit=${pageSize}`
-
-  const response = await fetch(url)
+export const fetchArticles = async () => {
+  const response = await fetch(URL)
   const data = await response.json()
   return data.results
 }
