@@ -14,7 +14,7 @@ export const SpinnerWrapper = styled.div`
   align-items: center;
   justify-content: center;
   height: 100vh;
-  width: 80%;
+  width: 100%;
   position: absolute;
 `
 

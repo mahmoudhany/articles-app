@@ -12,7 +12,7 @@ interface ArticleMedia {
   approved_for_syndication: number
   "media-metadata": ArticleMediaMetadata[]
 }
-export interface Article {
+export interface IArticle {
   uri: string
   url: string
   id: number

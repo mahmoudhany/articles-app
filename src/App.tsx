@@ -1,10 +1,16 @@
-import ArticlesWrapper from "./components/ArticlesWrapper"
+import { Route, Routes } from "react-router-dom"
+import ArticlesWrapper from "./pages/homePage"
+import ArticleDetailsPage from "./pages/articleDetailsPage"
+import { ArticleProivder } from "./context/articleContext"
 
 function App() {
   return (
-    <div className="App">
-      <ArticlesWrapper />
-    </div>
+    <ArticleProivder>
+      <Routes>
+        <Route path="/" element={<ArticlesWrapper />} />
+        <Route path="/article/:id" element={<ArticleDetailsPage />} />
+      </Routes>
+    </ArticleProivder>
   )
 }
 
