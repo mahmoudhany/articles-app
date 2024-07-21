@@ -28,3 +28,9 @@ Then select home_page.cy
 
 create env file in project root and add the your personal API key to it
 REACT_APP_API_KEY=YOUR_API_KEY
+
+### attached screenshot for testing:
+
+![alt text](<Screenshot 2024-07-21 at 4.51.52 PM.png>)
+
+![alt text](<Screenshot 2024-07-21 at 4.42.26 PM.png>)
