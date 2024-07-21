@@ -17,3 +17,14 @@ You will also see any lint errors in the console.
 ### `npm test`
 
 This will run the test suite for the app.
+
+### `npx Cypress open`
+
+This will open Cypress.
+Then select your prefered browser
+Then select home_page.cy
+
+### Note:
+
+create env file in project root and add the your personal API key to it
+REACT_APP_API_KEY=YOUR_API_KEY
