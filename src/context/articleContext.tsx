@@ -23,7 +23,6 @@ export function ArticleProivder({ children }: { children: React.ReactNode }) {
       setLoading(true)
       const response = await fetch(URL)
       const data = await response.json()
-
       setArticles(data.results)
       setLoading(false)
     } catch (error) {

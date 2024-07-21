@@ -1,0 +1,147 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2024 The New York Times Company.  All Rights Reserved.",
+  "num_results": 20,
+  "results": [
+    {
+      "uri": "nyt://article/8fa396fe-db12-5e85-aa5b-a1b26d640cd6",
+      "url": "https://www.nytimes.com/2024/07/20/us/usha-vance-indian-americans-politics.html",
+      "id": 100000009576943,
+      "asset_id": 100000009576943,
+      "source": "New York Times",
+      "published_date": "2024-07-20",
+      "updated": "2024-07-20 05:03:01",
+      "section": "U.S.",
+      "subsection": "",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Presidential Election of 2024;Asian-Americans;Vice Presidents and Vice Presidency (US);Foreign Workers;Chinese-Americans;Politics and Government;Race and Ethnicity;Immigration and Emigration;Indian-Americans;Gopalan, Shyamala;Haley, Nikki R;Harris, Kamala D;Jindal, Bobby;Ramaswamy, Vivek (1985- );Trump, Donald J;Vance, J D;Pew Research Center;University of California, Berkeley;University of California, San Diego;Yale University;California;Europe;India;San Diego (Calif)",
+      "column": null,
+      "byline": "By Amy Qin and Jonathan Wolfe",
+      "type": "Article",
+      "title": "Indian Americans Become a Political Force, Just as Usha Vance’s Profile Rises",
+      "abstract": "Indian Americans are now the largest and most politically active group among Asian Americans. Among their recent milestones: Vice President Kamala Harris, two G.O.P. presidential candidates — and a possible second lady.",
+      "des_facet": [
+        "Presidential Election of 2024",
+        "Asian-Americans",
+        "Vice Presidents and Vice Presidency (US)",
+        "Foreign Workers",
+        "Chinese-Americans",
+        "Politics and Government",
+        "Race and Ethnicity",
+        "Immigration and Emigration",
+        "Indian-Americans"
+      ],
+      "org_facet": [
+        "Pew Research Center",
+        "University of California, Berkeley",
+        "University of California, San Diego",
+        "Yale University"
+      ],
+      "per_facet": [
+        "Gopalan, Shyamala",
+        "Haley, Nikki R",
+        "Harris, Kamala D",
+        "Jindal, Bobby",
+        "Ramaswamy, Vivek (1985- )",
+        "Trump, Donald J",
+        "Vance, J D"
+      ],
+      "geo_facet": [
+        "California",
+        "Europe",
+        "India",
+        "San Diego (Calif)"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Usha Vance, who could become the second lady, is something of a political enigma. She was registered as a Democrat as recently as 2014 and has said little about her own politics.",
+          "copyright": "Haiyun Jiang for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/07/20/multimedia/20nat-usha-vance-TOP-kfgc/20nat-usha-vance-TOP-kfgc-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/20/multimedia/20nat-usha-vance-TOP-kfgc/20nat-usha-vance-TOP-kfgc-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/20/multimedia/20nat-usha-vance-TOP-kfgc/20nat-usha-vance-TOP-kfgc-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/a99d2466-8498-577a-9648-a20cf1a70657",
+      "url": "https://www.nytimes.com/2024/07/20/us/abbott-texas-migrant-buses.html",
+      "id": 100000009516701,
+      "asset_id": 100000009516701,
+      "source": "New York Times",
+      "published_date": "2024-07-20",
+      "updated": "2024-07-20 16:31:01",
+      "section": "U.S.",
+      "subsection": "",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Immigration and Emigration;Governors (US);Abbott, Gregory W (1957- );Texas;Denver (Colo)",
+      "column": null,
+      "byline": "By J. David Goodman, Keith Collins, Edgar Sandoval and Jeremy White",
+      "type": "Article",
+      "title": "Bus by Bus, Texas’ Governor Changed Migration Across the U.S.",
+      "abstract": "In two years, Texas has bused more than 119,000 people to Democrat-led cities, shifting both migration patterns and the debate over immigration. The list of cities keeps expanding.",
+      "des_facet": [
+        "Immigration and Emigration",
+        "Governors (US)"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Abbott, Gregory W (1957- )"
+      ],
+      "geo_facet": [
+        "Texas",
+        "Denver (Colo)"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A bus from Texas with migrants arrives in Denver last month. ",
+          "copyright": "Rachel Woolf for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/07/23/multimedia/00nat-abbott-buses-print-1/00nat-abbott-buses-top-kzhb-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/23/multimedia/00nat-abbott-buses-print-1/00nat-abbott-buses-top-kzhb-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/23/multimedia/00nat-abbott-buses-print-1/00nat-abbott-buses-top-kzhb-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    }
+  ]
+}

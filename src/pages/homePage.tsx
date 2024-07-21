@@ -6,9 +6,13 @@ import ArticleContext from "../context/articleContext"
 const ArticleCard = lazy(() => import("../components/ArticleCard"))
 
 const HomePage: React.FC = () => {
-  const { articles, loading, error, duration, setDuration } = useContext(
-    ArticleContext
-  ) || {
+  const {
+    articles = [],
+    loading,
+    error,
+    duration,
+    setDuration,
+  } = useContext(ArticleContext) || {
     articles: [],
     loading: false,
     error: null,
@@ -31,6 +35,7 @@ const HomePage: React.FC = () => {
             setDuration(+e.target.value)
           }}
           value={duration}
+          test-id="duration-select"
         >
           <option value="1">1 day</option>
           <option value="7">7 days</option>
